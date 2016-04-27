@@ -2,6 +2,7 @@
 	clear: both;
 }
 #cadre {
+	color: #FFF;
 	width: 300px;
 	height: 600px;
 	border: 1px solid #000;
@@ -48,11 +49,11 @@
 	height: 50px;
 	width: 300px;
 }
-#red, #yellow, #green, #blue, #purple, #black {
+#red, #yellow, #green, #blue, #purple, #black, #orange, #darkturquoise {
 	margin: 3px;
 	float: left;
-	width: 40px;
-	height: 40px;
+	width: 27px;
+	height: 27px;
 	border: 2px inset #AAA;
 	border-radius: 100%;
 }
@@ -61,7 +62,10 @@
 #green {background-color: green;}
 #blue {background-color: blue;}
 #purple {background-color: purple;}
+#orange {background-color: orange;}
+#darkturquoise {background-color:darkturquoise;}
 #black {background-color: black;}
+
 button {
 	margin: 5px 0px 0px 0px;
 	width: 300px;
